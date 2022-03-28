@@ -1,0 +1,96 @@
+:root {
+  --color: #ff6734;
+  --white: #fff;
+  --black: #1c2b2d;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+  --twitter: hsl(207, 93%, 46%);
+  --fb: hsl(221, 89%, 41%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+/* Footer Section */
+.footer {
+  min-height: 10vh;
+  background-color: var(--dark-grey);
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+ul li img {
+  height: 40px;
+  width: 40px;
+}
+li {
+  list-style-type: none;
+  display: inline-grid;
+  padding: 0.2rem;
+}
+.icons {
+  margin-left: -2.2rem;
+}
+hr.horizontal {
+  color: white;
+  height: 3px;
+}
+h4,
+li {
+  color: lightgrey;
+  font-weight: 300;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+ul.legal {
+  margin-left: -2.2rem;
+}
+ul.help {
+  margin-left: -2.2rem;
+}
+ul.more {
+  margin-left: -2.2rem;
+}
+
+/* CopyRight Section */
+.col-md-3.copy {
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 900px) {
+  ul.legal {
+    display: flex;
+    flex-direction: column;
+  }
+  ul.help {
+    display: flex;
+    flex-direction: column;
+  }
+  input.search {
+    width: 25rem;
+  }
+
+  h1.text-center.text-light.d-flex.justify-contents-center.align-items-center.mb-5 {
+    font-size: 1.4rem;
+  }
+  input.subscribe {
+    width: 27rem;
+  }
+  button.female.btnn,
+  button.male.btnn {
+    padding: 0.3rem 0.7rem;
+    font-size: 1rem;
+  }
+  img.email {
+    margin-top: 0.6rem;
+  }
+}
